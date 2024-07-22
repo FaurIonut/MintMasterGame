@@ -1,6 +1,8 @@
+
 {
   "hosting": {
-    "public": "y",
+    "site": "mintmastergame",  
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",

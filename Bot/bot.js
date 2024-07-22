@@ -1,5 +1,5 @@
 const { Telegraf, Markup } = require("telegraf");
-const TOKEN = "7186461900:AAF5kUsYeq6mjJH59T8FUeVqp37ZZtrRZo8";
+const TOKEN = "7401379648:AAFpRRGrMAmVOj3jihLpxGju1M-M6HN9bp0";
 const bot = new Telegraf(TOKEN);
 const express = require("express");
 const app = express()

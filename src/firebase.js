@@ -3,12 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBXgBykiefZ5oPv8KsAEbrJrFXJNVzJ9Fo",
-  authDomain: "apptelebot.firebaseapp.com",
-  projectId: "apptelebot",
-  storageBucket: "apptelebot.appspot.com",
-  messagingSenderId: "464223544142",
-  appId: "1:464223544142:web:c3fdb64c21d75439f1f41f"
+  apiKey: "AIzaSyAn5X-GitstIRdJnK6Zh12A4lb6ZC9wWPA",
+  authDomain: "airdrop-6ddcd.firebaseapp.com",
+  databaseURL: "https://airdrop-6ddcd-default-rtdb.firebaseio.com",
+  projectId: "airdrop-6ddcd",
+  storageBucket: "airdrop-6ddcd.appspot.com",
+  messagingSenderId: "509687867989",
+  appId: "1:509687867989:web:75f41d28eba0b95f6fc2dc",
+  measurementId: "G-BTSEE7X939"
 
 };
 

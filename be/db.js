@@ -1,12 +1,18 @@
-const mongoose=require('mongoose');
+const mongoose = require('mongoose');
 require('dotenv').config();
-const uri=process.env.ATLAS_URI;
 
-const connect=()=>{
-    mongoose.connect(uri);
-    const connection=mongoose.connection;
-    connection.once('open',()=>{
+const uri = process.env.ATLAS_URI;
+
+const connect = async () => {
+    try {
+        await mongoose.connect(uri, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+        });
         console.log("MongoDB database connection established successfully");
-    });
-}
-module.exports=connect;
+    } catch (error) {
+        console.error("Error connecting to MongoDB", error);
+    }
+};
+
+module.exports = connect;
